@@ -1,0 +1,30 @@
+The manager of the only record shop in a college town is not concerned with market
+competition. Instead, his major decision problem is the sales effort allocation to achieve
+the maximum profit. The record shop employs five full-time and four part-time salesmen.
+The average regular working time is 160 hours a month for full-time salesmen and 80
+10
+hours for part-time salesmen. The average sale of records per hour has been five for the
+full-time salesmen and two for the part-time salesmen. The average hourly wage rates are
+$3.00 for the full-time and $2.00 for the part-time salesmen. The average profit from the
+sale of a record is $1.50. In view of the past sales records and the increased enrollment at
+the college, the manager feels that the sales goal for September should be 5,500 records.
+Since the shop is open six days a week, overtime is often required of salesmen. The
+manager believes that a good employer-employee relationship is an essential factor of
+business success. Therefore, he decided that a stable employment level with occasional
+overtime requirements is a better practice than an unstable employment level with no
+overtime. However, he also feels that overtime of more than 100 hours for the full-time
+salesmen should be avoided because of the resulting fatigue.
+The relative importance of these goals are as follows: the manager gives the first priority
+to achievement of the sales goal of 5,500 records in September. Then he wants to limit
+the overtime of full-time salesmen to 100 hours. The third goal in line is to provide job
+security to salesmen. The manager feels that full utilization is an important factor for a
+good employer-employee relationship. However, he is twice as concerned with the full
+utilization of full-time salesmen as with the utilization of part-time salesmen. The fourth
+and last concern is to minimize the sum of overtime for both full-time and part-time
+salesmen. However, differential weights should be assigned to the minimization of
+overtime for the full-time and part-time salesmen. Between the full-time and part-time
+salesmen, the sales efficiency ratio is 5 to 2, while the hourly wage rate is $4.50
+(overtime pay) and $2.00. The marginal profit per hour of overtime is $3.00 for the
+full-time salesmen and $1.00 for the part-time salesmen. The relative cost of an hour of
+overtime for the part-time salesmen is three times that of the full-time salesmen.
+Set up the goal programming model to solve this problem.
