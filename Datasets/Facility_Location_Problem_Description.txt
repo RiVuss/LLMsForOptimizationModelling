@@ -1,4 +1,0 @@
-You are a city planner, looking to open facilities at some locations. We have a set of customers and a set of possible locations for opening facilities. Each potential location for establishing a facility incurs a fixed annual activation cost, which must be paid if the facility is used, regardless of the service volume it handles. Furthermore, this service volume at each facility is capped at a maximum annual limit. Additionally, there are transportation costs associated with servicing each customer from each facility.
-The goal is to minimize the overall costs, which include both the fixed activation costs for any opened facilities and the transportation costs for servicing customers. This must be done while making sure that each customer’s demand is met, each facility does not exceed its maximum service volume, and customers can of course only be serviced by a facility that is opened. 
-Please formulate this as a mathematical optimization model.
-
