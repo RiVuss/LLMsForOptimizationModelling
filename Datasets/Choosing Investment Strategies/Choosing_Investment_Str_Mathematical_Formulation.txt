@@ -4,11 +4,12 @@
 \begin{document}
 
 \begin{itemize}
-    \item $x_i$  Amount invested in investment $i$, where $i = 1, 2, \ldots, {10}$
+    \item $x_i$  Binary variable where it is 1 if investment  $i$ is selected, 0 otherwise, where $i = 1, 2, \ldots, {10}$
+    \item $a_i$  cost of investing into invertment $i$, where $i = 1, 2, \ldots, {10}$
     \item $\mu_i$: expected return on investment i. 
     \item $\sigma^2_i$: variance of the returns. 
     \item $r$: risk parameter.
-    \item $z_i$: Binary variable where it equals 1 if investment i is chosen, and 0 otherwise. 
+    \item $z_j$: Binary variable where it equals 1 if scenario j is chosen, and 0 otherwise, where $j = 1, 2, \ldots, {4}$. 
 \end{itemize}
 
 \[
