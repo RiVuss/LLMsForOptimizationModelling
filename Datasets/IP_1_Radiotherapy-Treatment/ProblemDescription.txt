@@ -1,0 +1,11 @@
+We are delighted to welcome you, our newest intern on the Analytics team of Massachusetts General Hospital! You have been placed in a challenging role where you will be tasked with solving a real-world problem in the field of medical physics. We are building a pilot program in Boston, and if successful, your work could be applied widely in hospitals with limited capacity in many countries.
+
+You are responsible for determining the best treatment plan for 17 patients who require radiotherapy. Your goal is to optimize the use of two possible treatments: photon therapy and proton therapy. While proton therapy is known to target tumors more precisely, it is also more expensive and has limited capacity in many countries. Therefore, you will need to balance the benefits of proton therapy with its limitations and cost to create an effective treatment plan for each patient.
+
+To determine the best course of action for each patient, you will use a scoring system called the Biological Equivalent Dose (BED). This system allows you to calculate the effectiveness of each patient’s treatment plan by considering the number of proton fractions that can be used while still achieving the highest possible BED.
+
+We have n=17 patients who need radiotherapy. Each patient i needs 15 fractions, which can be photon fractions, proton fractions, or a mix of photon and proton fractions (e.g. 4 proton fractions and 11 photon fractions). We want to use the limited proton therapy capacity as best as possible. We can calculate the BED score for each patient when p proton fractions and 15-p photon fractions are used, as BEDi(p,15-p), i.e., the BED when p proton and 15-p photon fractions are delivered for patient i. The higher the score, the better. 
+
+The data file "ProblemData.csv" contains a matrix of 17 rows and 16 columns. In particular, the number at the (i,j) position is BEDi (j, 15-j), i.e. the score for patient i receiving j proton fractions. 
+
+Suppose that the total maximal capacity is C proton fractions. To maximize the total BED scores for all the patients, which patients should get proton fractions, and how many should they get? Formulate an integer linear optimization model to solve this problem. Assume you know the value BEDi(j,15-j) for each patient i. 
