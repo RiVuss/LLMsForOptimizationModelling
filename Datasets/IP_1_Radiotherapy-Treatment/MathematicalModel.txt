@@ -1,0 +1,16 @@
+\begin{align*}
+x_i,p &= \text{binary variable that takes a value 1 if patient i receives p proton fractions (and 15-p photon fractions), and 0 otherwise.} \\
+i &= \text{the patient index (from 0 to 16)} \\
+p &= \text{the number of proton fractions (from 0 to 15)} \\
+C &= \text{capacity for the proton fractions} \\
+\text{Maximize} \quad &
+\begin{aligned}[t]
+&\sum_{i=0}^{16} \sum_{p=0}^{15} BED_i(p,15-p) \times x_{i,p} \\
+\end{aligned} \\
+\text{Subject to:} \quad &
+\begin{aligned}[t]
+&\sum_{i=0}^{16} \sum_{p=0}^{15} p \times x_{i,p} \leq C \\
+&\sum_{p=0}^{15} x_{i,p} = 1 \text{  for each patient i}\\
+& x_{i,p} \in (0,1)  
+\end{aligned}
+\end{align*}
