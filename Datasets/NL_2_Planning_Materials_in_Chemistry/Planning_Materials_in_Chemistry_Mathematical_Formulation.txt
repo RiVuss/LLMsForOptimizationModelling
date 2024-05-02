@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{itemize}
+  \item \(X_1\): litres of the first component.
+  \item \(X_2\): litres of the second component.
+\end{itemize}
+
+\[
+\text{Maximize } f = \ln(X_1 \cdot X_2) - \sqrt[3]{X_1 + 2X_2}
+\]
+
+\text{Subject to:}
+\begin{align*}
+\left(X_1 - \frac{X_1 + X_2}{2}\right)^2 &\leq 10 \\
+\left(X_2 - \frac{X_1 + X_2}{2}\right)^2 &\leq 10 \\
+(X_1 + X_2 &\leq 80) \\
+X_i &\geq 0 \text{ for } i = 1, 2
+\end{align*}
+
+\end{document}
