@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{itemize}
+    \item $x_i$  Binary variable where it is 1 if investment  $i$ is selected, 0 otherwise, where $i = 1, 2, \ldots, {10}$
+    \item $a_i$  cost of investing into invertment $i$, where $i = 1, 2, \ldots, {10}$
+    \item $\mu_i$: expected return on investment i. 
+    \item $\sigma^2_i$: variance of the returns. 
+    \item $r$: risk parameter.
+    \item $z_j$: Binary variable where it equals 1 if scenario j is chosen, and 0 otherwise, where $j = 1, 2, \ldots, {4}$. 
+\end{itemize}
+
+\[
+\max \left( \sum_{i=1}^{10} \mu_i x_i - r \sum_{i=1}^{10} \sigma_i^2 x_i \right)
+\]
+
+Subject to:
+\begin{align*}
+& \quad \Pr\left(\sum_{i=1}^{10} \tilde{a}_i x_i > 1000\right) \leq \epsilon, \\
+& \quad \sum_{i=1}^{10} \tilde{a}_i x_i \leq 1000 + (1 -z_1) M, \\
+& \quad \sum_{i=1}^{10} \tilde{a}_i x_i \leq 1400 + (1 -z_2) M, \\
+& \quad \sum_{i=1}^{10} \tilde{a}_i x_i \leq 900 + (1 -z_3) M, \\
+& \quad \sum_{i=1}^{10}\tilde{a}_i x_i \leq 1200 + (1 -z_4) M, \\
+& \quad 0.55 z_1 + 0.4 z_2 + 0.04 z_3 + 0.01 z_4 \geq 1-\epsilon, \\
+& \quad z_1, z_2, z_3, z_4 \in (0, 1), \\
+& \quad M = \sum_{i=1}^{10} a_i. 
+\text{where M is 2100 }
+\end{align*}
+
+\end{document}
