@@ -1,0 +1,25 @@
+\begin{align*}
+X_{11} &= \text{Liters of C1 to be included in product GCA} \\
+X_{21} &= \text{Liters of C2 to be included in product GCA} \\
+X_{12} &= \text{Liters of C1 to be included in product GCB} \\
+X_{22} &= \text{Liters of C2 to be included in product GCB} \\
+X_{13} &= \text{Liters of C1 to be included in product GCC} \\
+X_{23} &= \text{Liters of C2 to be included in product GCC} \\
+\text{Maximize} \quad &
+\begin{aligned}[t]
+&\ z = 120(X_{11} + X_{21}) + 135(X_{12} + X_{22}) + 155(X_{13} + X_{23}) \\
+\end{aligned} \\
+\text{Subject to:} \quad &
+\begin{aligned}[t]
+& X_{11} + X_{12} + X_{13} \leq 10000 \text{   (availability of component C1)} \\
+& X_{21} + X_{22} + X_{23} \leq 15000 \text{   (availability of component C2)} \\
+& X_{11} + X_{21} \geq 6000 \text{   (demand of product GCA)}\\
+& X_{12} + X_{22} \geq 7000 \text{   (demand of product GCB)}\\
+& X_{13} + X_{23} \geq 9000 \text{   (demand of product GCC)}\\
+& 0.4 X_{11} + 0.2 X_{21} \geq 0.3(X_{11}+X_{21}) \text{   (Product GCA must contain at least one 0.3 fraction of the critical element)}\\
+& 0.4 X_{12} + 0.2 X_{22} \leq 0.3(X_{12}+X_{22}) \text{   (Product GCB must contain one 0.3 fraction of the critical element at the most)}\\
+& X_{13} \geq 0.3X_{23} \text{   (the minimum ratio between C1 and C2 must
+be 0.3)}\\
+& X_{11},X_{21},X_{12},X_{22},X_{13},X_{23} \geq 0\\
+\end{aligned}
+\end{align*}

@@ -1,0 +1,20 @@
+A firm from Milan sells chemical products for professional cosmetics. It is planning the production of three products, GCA, GCB and GCC, for a given period of
+time by mixing two different components: C1 and C2. All the end products must
+contain at least one of the two components, and not necessarily both.
+
+For the next planning period, 10,000 l of C1 and 15,000 l of C2 are available.
+The production of GCA, GCB and GCC must be scheduled to at least cover the
+minimum demand level of 6,000, 7,000 and 9,000 l, respectively. It is assumed
+that when chemical components are mixed, there is no loss or gain in volume.
+
+Each chemical component, C1 and C2, has a proportional critical element, 0.4
+and 0.2, respectively. That is to say, each litre of C1 contains 0.4 l of the critical
+element. To obtain GCA, the mixture must proportionally contain at least a 0.3
+fraction of the critical element. Another requirement is that the quantity of the
+critical element is seen in GCB, an 0.3 fraction at the most.
+Furthermore, the minimum ratio of C1 with C2 in product GCC must be 0.3.
+
+The profit expected for the sale of each litre of GCA, GCB and GCC is $120, $135
+and $155, respectively.
+
+Optimise the production planning of this firm. 
