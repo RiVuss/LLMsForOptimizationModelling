@@ -1,0 +1,13 @@
+\begin{align*}
+    \text{Minimize} &\; p_{1}d_{1} + p_{2}d_{2} - \bigl(c_1{1}r_{1} + c_{2}r_{2} + c_{3}d_{1} + c_{4}d_{2}\bigr) \\
+    \text{Subject to:} &\; 
+    \begin{alignedat}[t]{5}
+        0.9955a_{1}r_{1} + 0.98a_{2}r_{2} - a_{3}d_{3} - a_{4}d_{4} &\geq 0 \\
+        t_{1}^{M}d_{1} + t_{2}^{M}d_{2} &\leq \text{MPH} \\
+        t_{1}^{E}d_{1} + t_{2}^{E}d_{2} &\leq \text{EH} \\
+        r_{1} + r_{2} &\leq \text{S} \\
+        c_1{1}r_{1} + c_{2}r_{2} + c_{3}d_{1} + c_{4}d_{2} &\leq \text{B} \\
+        d_{1}, d_{2} &\geq 0 \\
+        r_{1}, r_{2} &\geq 0
+    \end{alignedat}
+\end{align*}
