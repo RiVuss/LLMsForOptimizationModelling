@@ -1,0 +1,31 @@
+The PRODA, S.A. industrial products firm has to face the problem of scheduling
+the weekly production of its three products (P1, P2 and P3). These products are
+sold to large industrial firms and PRODA, S.A. wishes to supply its products in
+quantities that are more profitable for it.
+
+Each product entails three operations contributing to the costs: smelting; mechanisation; assembly and
+packaging. The smelting operations for products P1 and P2 could be subcontracted, but the smelting operation for product P3 requires special equipment, thus
+preventing the use of subcontracts. PRODA also want to know, how much they should subcontract.
+
+For product P1 the direct unit costs of all possible operations are:
+- smelting at PRODA: 0.30$
+- subcontracted smelting: 0.50$
+- mechanisation: 0.20$
+- Assembly and packaging: 0.3$
+The unit sales price is 1.50$.
+
+For product P2 the direct unit costs of all possible operations are:
+- smelting at PRODA: 0.50$
+- subcontracted smelting: 0.60$
+- mechanisation: 0.10$
+- Assembly and packaging: 0.20$
+The unit sales price is 1.80$.
+
+For product P3 the direct unit costs of all possible operations are:
+- smelting at PRODA: 0.40$
+- mechanisation: 0.27$
+- Assembly and packaging: 0.20$
+The unit sales price is 1.97$.
+
+Each unit of product P1 requires 6 min of smelting time (if performed at PRODA, S.A.), 6 min of mechanisation time and 3 min of assembly and packaging time, respectively. For product P2, the times are 10, 3 and 2 min, respectively. One unit of product P3 needs 8 min of smelting time, 8 min of mechanisation and 2 min for assembly and packaging. PRODA, S.A. has weekly capacities of 8,000 min of smelting time, 12,000 min of mechanisation time and 10,000 min of assembly and packaging time.
+The objective is to maximize weekly profits.
