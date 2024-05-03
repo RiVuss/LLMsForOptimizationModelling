@@ -1,0 +1,18 @@
+\begin{align*}
+X_{1} &= \text{Units of product P1 with smelting at PRODA, S.A.} \\
+X_{2} &= \text{Units of product P1 with subcontracted smelting} \\
+X_{3} &= \text{Units of product P2 with smelting at PRODA, S.A.} \\
+X_{4} &= \text{Units of product P2 with subcontracted smelting} \\
+X_{5} &= \text{Units of product P3} \\
+\text{Maximize} \quad &
+\begin{aligned}[t]
+&\ z = 0.7X_1 + 0.5X_2 + X_3 + 0.9X_4 + 1.1X_5 \\
+\end{aligned} \\
+\text{Subject to:} \quad &
+\begin{aligned}[t]
+& 6X_{1} + 10X_3 + 8X_5 \leq 8000 \text{   (Capacity for smelting)} \\
+& 6X_1 + 6X_2 + 3X_3 + 3X_4 + 8X_5 \leq 12000 \text{   (Capacity for mechanisation)} \\
+& 3X_1 + 3X_2 + 2X_3 + 2X_4 + 2X_5 \leq 10000 \text{   (Capacity for assembly and packaging)}\\
+& X_{1},X_{2},X_{3},X_{4},X_{5} \geq 0\\
+\end{aligned}
+\end{align*}
