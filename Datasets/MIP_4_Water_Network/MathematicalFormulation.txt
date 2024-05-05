@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb}
+
+\title{MIP 4 Water Flow }
+\author{Nathan Ferchtandiker }
+\date{April 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{align*}
+    f(t) = -t^3+4t^2-t+4 for 0 <= t <= 4, 0 otherwise\\
+    \text{Maximize} \sum_{t\in T} 
+    X_{EG, t} + X_{FG, t}\\
+    \text{Subject to:}\\
+    \begin{alignedat}[t]{5}
+    X_{AB, t} + X_{AC, t} + Y_{A, t} &\;= f(t - 1), &\;\forall t \in T\\
+    X_{BC, t} + X_{BD, t} + Y_{B, t} &\;= X_{AB, t - 1}, &\;\forall t \in T\\
+    X_{CE, t} + X_{CF, t} + Y_{C, t} &\;= X_{AC, t-1} + X_{BC, t-1}, &\;\forall t \in T\\
+    X_{DE, t} + Y_{D, t} &\;= X_{BD, t-1}, &\;\forall t \in T\\
+    X_{EG, t} + Y_{E, t} &\;= X_{DE, t-1} + X_{CE. t-1}, &\;\forall t \in T\\
+    X_{FG, t} + Y_{F, t} &\;= X_{CE, t-1}, &\;\forall t \in T\\
+    X_{e, -1} &\;= 0,  &\;\forall e \in E\\
+    X_{e, t} &\;\leq Z_{e} c_{e},  &\;\forall e \in E\\
+    \sum_{e \in E}Z_{e} &\;\leq k\\
+    X_{e, t}  &\; \in R^{+},  &\;\forall e \in E, t \in T\\
+    Y_{n, t}  &\; \in R^{+},  &\;\forall n \in N, t \in T\\
+    Z_{e} &\; \in \{0, 1\},  &\;\forall e \in E
+    \\
+    \end{alignedat}
+\end{align*}
+
+\end{document}
