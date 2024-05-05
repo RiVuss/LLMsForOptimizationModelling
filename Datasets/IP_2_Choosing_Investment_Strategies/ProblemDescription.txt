@@ -1,0 +1,10 @@
+Your goal is to invest in several of 10 possible investment strategies in the most optimal way. The historic returns of those strategies are stored in the file "investments_data.csv". Each column represents one strategy and the rows are the past investment outcomes. 
+
+The costs for investing in a given investment is stored in a vector A, which has one value for each strategy in order.  
+
+You can only invest once into an investment. 
+
+Unfortunately due to other costs and inflation, your available budget at this time is uncertain. There are four possible budget scenarios with different probabilities: scenario 1 with 1000 euros and probability of 0.55, scenario 2  with 1100 euros and probability of 0.4, scenario 3 with 900 euros and probability of 0.04, scenario 4 with 1200 euros and probability of 0.01. 
+The tolerable probability of exceeding the budget is 0.4.
+
+Please formulate a mean-variance mathematical model for this optimization problem, considering the past performance of investment strategies and the uncertain budget. You can take 2 as the risk parameter r.
