@@ -1,0 +1,31 @@
+\begin{document}
+
+\begin{itemize}
+    \item $x_1$  acres of land devoted to wheat
+   \item $x_2$  acres of land devoted to corn
+   \item $x_3$  acres of land devoted to sugar beets
+   \item $w_1$  tons of wheat sold
+   \item $w_2$  tons of corn sold
+   \item $w_3$  tons of sugar beets sold at a favorable price
+   \item $w_4$  tons of sugar beets sold at the lower price
+   \item $y_1$  tons of wheat purchased
+   \item $y_2$  tons of corn purchased
+   
+\end{itemize}
+
+\[
+\max 150x_1 + 230x_2 + 260x_3 - 238y_1 - 170w_1 + 210y_2 - 150w_2 - 36w_3 - 10w_4
+\]
+
+Subject to:
+\begin{align*}
+& \quad x_1 + x_2 + x_3 \leq 500, \\
+& \quad 2.5x_1 + y_1 - w_1 \geq 200, \\
+& \quad 3x_2 + y_2 - w_2 \geq 240, \\
+& \quad w_3 + w_4 \leq 20x_3, \\
+& \quad w_3 \leq 6000, \\
+& \quad x_1,x_2,x_3,w_1,w_2,w_3,w_4,y_1,y_2 \geq 0, \\
+\end{align*}
+
+
+\end{document}
