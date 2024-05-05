@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb}
+
+\title{MIP 2 Food Beverage Production}
+\author{Nathan Ferchtandiker }
+\date{April 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{align*}
+    &\text{Minimize} &\;\sum_{i\in I} \sum_{t\in T} cv_{i, t} X_{i, t} +  cf_{i, t} Y_{i, t} + cs_{i, t} S_{i, t}\\
+    &\text{Subject to:}  &\;
+    \begin{alignedat}[t]{5}
+    S_{i, t - 1} + X_{i, t} - S{i, t} &\;= d_{i, t}, &\;\forall i \in I, t \in T\\
+    X_{i, t} &\;\leq p_{i} Y_{i, t}, &\;\forall i \in I, t \in T\\
+    S_{i, t} &\; \leq s_{i}, &\;\forall i \in I, t \in T\\
+    X_{i, t} &\;\in Z^+ , &\;\forall i \in \{1, 2\}, t \in T\\
+    X_{i, t} &\;\in R^+ , &\;\forall i \in \{3, 4, 5\}, t \in T\\
+    Y_{i, t} &\;\in \{0, 1\} , &\;\forall i \in I, t \in T\\
+    S_{i, t} &\;\in Z^+ , &\;\forall i \in \{1, 2\}, t \in T\\
+    S_{i, t} &\;\in R^+ , &\;\forall i \in \{3, 4, 5\}, t \in T\\
+    \end{alignedat}
+\end{align*}
+
+\end{document}

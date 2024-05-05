@@ -1,0 +1,4 @@
+You are the production planner in a food and beverage production fascility. You are tasked with planning production for the next T time periods. The production fascility is able to produce two types of food and three types of beverage. For each product that is produced at period t, a fixed cost is incurred. In addition, there is variable cost for each product. Each product can also be stored which is also associated with cost. Fixed cost, variable cost per product and storage cost are not stable over time. There is also a demand for each product and time period. The profit per product and time also differs. Finnaly, there is a constant storage capacity and production capacity for each product. 
+
+
+

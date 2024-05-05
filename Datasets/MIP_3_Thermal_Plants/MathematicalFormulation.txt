@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb}
+
+\title{MIP 3 Thermanl Units }
+\author{Nathan Ferchtandiker }
+\date{April 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{align*}
+    &\text{Minimize} &\;\sum_{i\in I} \sum_{t\in T} crf_{i} V_{i, t} + crv_{i} X_{i, t} +  cu_{i} Y_{i, t} + cd_{i} Z_{i, t}\\
+    &\text{Subject to:}  &\;
+    \begin{alignedat}[t]{5}
+    l_i V_{i, t}  &\; \leq X_{i, t}, &\;\forall i \in I, t \in T\\
+    u_i V_{i, t}  &\; \geq X_{i, t}, &\;\forall i \in I, t \in T\\
+    X_{i, t+1} - X_{i, t} &\;\leq s_{i}, &\;\forall i \in I, t \in T - \{1\}\\
+    X_{i, 1} - x_{i}^{0} &\;\leq s_{i}, &\;\forall i \in I\\
+    X_{i, t} - X_{i, t + } &\;\leq t_{i}, &\;\forall i \in I, t \in T - \{1\}\\
+    x_{i}^{0} -  X_{i, 1} &\;\leq t_{i}, &\;\forall i \in I\\
+    Y_{i, t} - Z_{i, t} &\;= V_{i, t} - V_{i, t-1}, &\;\forall i \in I, t \in T - \{1\}\\
+    Y_{i, 1} - Z_{i, 1} &\;= V_{i, 1} - v_{i}^{0}, &\;\forall i \in I\\
+    \sum_{i \in I} X_{i, t} &\;= D_{t}, &\;\forall t \in T\\
+    \sum_{i \in I} u_{i} V_{i, t} &\;= D_{t} + R_{t}, &\;\forall t \in T\\
+    X_{i, t} &\; \in R^{+} &\; \forall i \in I, t \in T\\
+    Y_{i, t} &\; \in \{0, 1\} &\; \forall i \in I, t \in T\\
+    Z_{i, t} &\; \in \{0, 1\} &\; \forall i \in I, t \in T\\
+    Y_{i, t} &\; \in \{0, 1\} &\; \forall i \in I, t \in T\\
+    \end{alignedat}
+\end{align*}
+
+\end{document}
