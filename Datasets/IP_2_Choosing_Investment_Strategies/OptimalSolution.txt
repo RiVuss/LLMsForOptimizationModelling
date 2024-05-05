@@ -1,3 +1,0 @@
-Investments selected (xi) = x1, x6,x7,x8,x10
-Scenarios selected (zj) = z1, z2, z3
-Profit: 224.56555315698307
