@@ -1,8 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amssymb}
+
+\title{MathematicalFormulationOP}
+\author{ }
+\date{April 2024}
+
+\begin{document}
+
 \begin{align*}
-x_i,p &= \text{binary variable that takes a value 1 if patient i receives p proton fractions (and 15-p photon fractions), and 0 otherwise.} \\
+x_{i,p} &= \parbox[t]{0.8\linewidth}{binary variable that takes a value 1 if patient i receives p proton fractions (and 15-p photon fractions), and 0 otherwise.} \\
 i &= \text{the patient index (from 0 to 16)} \\
 p &= \text{the number of proton fractions (from 0 to 15)} \\
-C &= \text{capacity for the proton fractions} \\
+C &= \text{capacity for the proton fractions (=100)} \\
 \text{Maximize} \quad &
 \begin{aligned}[t]
 &\sum_{i=0}^{16} \sum_{p=0}^{15} BED_i(p,15-p) \times x_{i,p} \\
@@ -14,3 +24,5 @@ C &= \text{capacity for the proton fractions} \\
 & x_{i,p} \in (0,1)  
 \end{aligned}
 \end{align*}
+
+\end{document}

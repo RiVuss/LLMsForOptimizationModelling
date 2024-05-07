@@ -6,6 +6,6 @@ To determine the best course of action for each patient, you will use a scoring 
 
 We have n=17 patients who need radiotherapy. Each patient i needs 15 fractions, which can be photon fractions, proton fractions, or a mix of photon and proton fractions (e.g. 4 proton fractions and 11 photon fractions). We want to use the limited proton therapy capacity as best as possible. We can calculate the BED score for each patient when p proton fractions and 15-p photon fractions are used, as BEDi(p,15-p), i.e., the BED when p proton and 15-p photon fractions are delivered for patient i. The higher the score, the better. 
 
-The data file "ProblemData.csv" contains a matrix of BED scores. It was made in Excel and saved as csv. The columns are the number of proton fractions and each row represents a patient. In particular, the number at the (i,j) position is the score for patient i receiving j proton fractions. 
+The data file "ProblemData.csv" contains a 2D matrix of BED scores. It does not have an index. It was made in Excel and saved as csv. The columns are the number of proton fractions and each row represents a patient. In particular, the number at the (i,j) position is the score for patient i receiving j proton fractions. 
 
 Suppose that the total maximal capacity C is 100 proton fractions. To maximize the total BED scores for all the patients, which patients should get proton fractions, and how many should they get? Formulate an integer linear optimization model to solve this problem. Assume you know the value BEDi(j,15-j) for each patient i. 

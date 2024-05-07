@@ -1,0 +1,20 @@
+Optimal Solution:
+Patient 1 receives 15 proton fractions (BED score: 0.44)
+Patient 2 receives 8 proton fractions (BED score: 0.5)
+Patient 3 receives 3 proton fractions (BED score: 0.75)
+Patient 4 receives 0 proton fractions (BED score: 0.3)
+Patient 5 receives 5 proton fractions (BED score: 0.26)
+Patient 6 receives 0 proton fractions (BED score: 0.8)
+Patient 7 receives 4 proton fractions (BED score: 0.67)
+Patient 8 receives 13 proton fractions (BED score: 0.28)
+Patient 9 receives 4 proton fractions (BED score: 0.22)
+Patient 10 receives 5 proton fractions (BED score: 0.8)
+Patient 11 receives 6 proton fractions (BED score: 0.53)
+Patient 12 receives 0 proton fractions (BED score: 0.2)
+Patient 13 receives 5 proton fractions (BED score: 0.75)
+Patient 14 receives 0 proton fractions (BED score: 0.01)
+Patient 15 receives 10 proton fractions (BED score: 0.41)
+Patient 16 receives 10 proton fractions (BED score: 0.899999999999999)
+Patient 17 receives 12 proton fractions (BED score: 0.42)
+
+Total BED Score: 8.239999999999998
