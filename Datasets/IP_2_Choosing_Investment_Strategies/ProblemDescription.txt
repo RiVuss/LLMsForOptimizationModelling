@@ -1,4 +1,4 @@
-Your goal is to invest in several of 10 possible investment strategies in the most optimal way. The historic returns of those strategies are stored in the file "investments_data.csv". Each column represents one strategy and the rows are the past investment outcomes. 
+Your goal is to invest in several of 10 possible investment strategies in the most optimal way. The historic returns of those strategies are stored in the file "investments_data.csv". Each column represents one strategy and the rows are the past investment outcomes. There is no index and the values are separated by a ;.
 
 The costs for investing in a given investment is stored in a vector A, which has one value for each strategy in order.  
 
