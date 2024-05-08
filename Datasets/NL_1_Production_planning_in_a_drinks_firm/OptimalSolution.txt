@@ -1,0 +1,4 @@
+Optimal Production Quantities:
+	COLI: 13838.33
+	PEPSA: 6919.17
+Maximum Profit: 287249204.17
