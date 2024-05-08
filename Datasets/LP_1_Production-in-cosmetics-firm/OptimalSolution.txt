@@ -1,0 +1,11 @@
+Optimal Solution:
+Product GCC:
+  Component C1: 2769.23 liters
+  Component C2: 9230.77 liters
+Product GCB:
+  Component C1: 3500.00 liters
+  Component C2: 3500.00 liters
+Product GCA:
+  Component C1: 3730.77 liters
+  Component C2: 2269.23 liters
+Total Profit: 3525000.00
