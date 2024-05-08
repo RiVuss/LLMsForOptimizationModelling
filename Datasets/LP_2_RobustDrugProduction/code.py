@@ -30,12 +30,12 @@ model.storage = pyo.Constraint(expr=(model.r1 + model.r2 <= S))
 model.budget = pyo.Constraint(expr=(c1*model.r1 + c2*model.r2 + c3*model.d1 + c4*model.d2 <= B))
 
 # Solve the model
-solver = pyo.SolverFactory('glpk')
+solver = pyo.SolverFactory('glpk', executable='/usr/bin/glpsol')
 result = solver.solve(model)
 
 # Display the results
 print(f"Status: {result.solver.status}")
-print(f"Total Cost: {pyo.value(model.obj)}")
+print(f"Objective value: {pyo.value(model.obj)}")
 print(f"d1 = {pyo.value(model.d1)}")
 print(f"d2 = {pyo.value(model.d2)}")
 print(f"r1 = {pyo.value(model.r1)}")

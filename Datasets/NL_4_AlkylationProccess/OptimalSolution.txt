@@ -1,0 +1,12 @@
+Objective Value: 176672.53 ($)
+Optimal Solution (rounded to 2 decimals):
+    X1: 2000.0
+    X2: 10086.92
+    X3: 0.0
+    X4: 3278.69
+    X5: 2000.0
+    X6: 93.0
+    X7: 93.84
+    X8: 6.04
+    X9: 1.2
+    X10: 155.68
