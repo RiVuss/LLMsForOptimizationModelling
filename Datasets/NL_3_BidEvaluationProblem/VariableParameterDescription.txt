@@ -1,0 +1,6 @@
+Decision Variables:
+    xij (continuous): The amount of units purchased from vendor i in price bracket j
+    yij (binary): Indicator purchasing from vendor i in price bracket j (1 if yes, zero otherwise)
+
+Parameters:
+    N/A (explicitly formulated)

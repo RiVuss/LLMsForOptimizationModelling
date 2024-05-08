@@ -1,0 +1,16 @@
+Decision Variables:
+    x1 (continuous): Olefin feed (barrels per day)
+    x2 (continuous): Isobutane recycle (barrels per day)
+    x3 (continuous): Acid addition rate (thousands of pounds per day)
+    x4 (continuous): Alkylate yield (barrels per day)
+    x5 (continuous): Isobutane makeup (barrels per day)
+    x6 (continuous): Acid strength (weight percent)
+    x7 (continuous): Motor octane number
+    x8 (continuous): External isobutane-to-olefin ratio
+    x9 (continuous): Acid dilution factor
+    x10 (continuous): F-4 performance number
+
+Parameters:
+    c1 to c5: Costs (used in the objective function)
+    x_i^l: Lower bound of variable i
+    x_i^u: Upper bound of variable i

@@ -1,0 +1,10 @@
+Data on all relevant parameters (sales price of the drugs, 
+purchasing prices of raw materials, 
+production costs of the drugs, 
+amount of active present in raw materials, 
+amount of active ingredient required for drugs,
+manpower hours needed to produce drugs,
+equipment hours needed to produce drugs,
+budget,
+storage capacity,
+manpower hours capacity and equipment hours capacity) will be provided separately.
