@@ -1,3 +1,4 @@
+# Bid Evaluation Non-Linear
 from pyomo.environ import ConcreteModel, Var, Objective, Constraint, NonNegativeReals, Binary, sum_product
 
 # Create a model
@@ -29,7 +30,7 @@ model.cost = Objective(expr=3855.84 * model.y['11'] +
                           62.019 * model.x['31'] +
                           72.488 * model.x['41'] +
                           70.150 * model.x['51'] +
-                          68.150 * model.x['52'],
+                          68.150 * (0.9995**(model.x['52']/1000)) * model.x['52'],
                       sense=1)
 
 # Demand constraint
@@ -56,7 +57,7 @@ model.const18 = Constraint(expr = sum(model.y[e] for e in indices_5) <= 1)
 
 # Solve the model using the CBC solver
 from pyomo.opt import SolverFactory
-solver = SolverFactory('glpk')
+solver = SolverFactory('couenne')
 solver.solve(model)
 
 # Display the results
@@ -66,7 +67,7 @@ model.pprint()
 print("Objective Value:", model.cost())
 
 for v in model.x:
-    print(f"X{v}: {model.x[v].value}")
+    print(f"X{v}: {round(model.x[v].value, 2)}")
 
 for v in model.y:
-    print(f"Y{v}: {model.y[v].value}")
+    print(f"Y{v}: {round(model.y[v].value, 2)}")

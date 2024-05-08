@@ -1,0 +1,14 @@
+Decision variables:
+    d1, d2 (continuous): Amount of drug 1/ 2 produced (in thousand packs)
+    r1, r2 (continuous): Amount of raw material 1/2 purchased (in kg)
+
+Parameters:
+    p1, p2 (integer): Price drug 1/2 is sold at
+    c1, c2, c3, c4 (continous): Costs for purchasing raw material 1/2 and producing drug 1/2
+    a1, a2, a3, a4 (continuous): Percentage of active ingredient in raw material 1/2 and drugs 1/2
+    t1^M, t2^M (continuous): Amount of manpower hours needed to produce drug 1/2
+    t1^E, t2^E (continuous): Amount of equipment hours needed to produce drug 1/2
+    MPH (integer): Amount of manpower hours available
+    EH (integer): Amount of equipment hours available
+    S (integer): Amount of storage space abailable for raw material 1/2
+    b (integer): Available budget for purchasing and production

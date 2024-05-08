@@ -1,0 +1,10 @@
+Decision Variables:
+    X1, X2: Records sold by full-time/ part-time employees
+    d1+, d1-: Positive/ Negative deviation from the sales goal of 5500
+    d2+, d2-: Positive/ Negative deviation from the average hours (800) worked by full-time employyess
+    d21+, d21-: Positive/ Negative deviation from the overtime goal of at most 100 hours for fulltime employees
+    d3+, d3-: Positive/ Negative deviation from the average hours (320) worked by part-time employees
+    Y11, Y12 to Y41, Y42: Binary indicator - 1 if deviating in postitive/ negative direction, 0 otherwise
+
+Parameters:
+    P1 to P4: Priority Factors of the goals
