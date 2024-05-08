@@ -1,9 +1,14 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
 \begin{align*}
 X_1 &= \text{Units of the 1.5 l COLI product to be produced} \\
 X_2 &= \text{Units of the 1.5 l PEPSA product to be produced} \\
 \text{Maximize} \quad &
 \begin{aligned}[t]
-&4900X_{1} - X_{1}^{2} + 30X_{2} - 2X_{2}^{2} - 150(40X_{1}+20X_{2}) \\
+&4900X_{1} - X_{1}^{2} + 30X_{2} - 2X_{2}^{2} - 150(X_{1}/40+X_{2}/40) \\
 \end{aligned} \\
 \text{Subject to:} \quad &
 \begin{aligned}[t]
@@ -12,3 +17,5 @@ X_2 &= \text{Units of the 1.5 l PEPSA product to be produced} \\
 &X_1,X_2 \geq 0 
 \end{aligned}
 \end{align*}
+
+\end{document}

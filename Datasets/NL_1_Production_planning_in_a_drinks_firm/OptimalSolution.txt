@@ -1,4 +1,4 @@
 Optimal Production Quantities:
-	COLI: 13838.33
-	PEPSA: 6919.17
-Maximum Profit: 287249204.17
+COLI (X1): 16335.833333340004
+PEPSA (X2): 8167.91666666004
+Maximum Daily Profit: 400289176.04199195
