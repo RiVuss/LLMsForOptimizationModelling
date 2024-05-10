@@ -3,14 +3,25 @@
 \usepackage{amsmath,amssymb}
 
 \title{MIP 2 Food Beverage Production}
-\author{Nathan Ferchtandiker }
-\date{April 2024}
 
 \begin{document}
 
 \maketitle
 
 \section{Introduction}
+$I$: Set of of products, {1, 2, 3, 4, 5}, where 1 and 2 are foods and 3, 4 and 5 are beverages\\
+$T$: Set of time periods\\
+\\
+$X_{i, t}$: amount of product $i$ produced at time $t$\\
+$S_{i, t}$: amount of product $i$ stored at time $t$\\
+$Y_{i, t}$ 1 if product $i$ is produced at time $t$, 0 otherwise\\
+\\
+$r_{i, t}$: revenue per unit of product $i$ at time $t$\\
+$cf_{i, t}$: fixed cost of producing product $i$ at time $t$\\
+$cv_{i,t}$: variable cost of producing product $i$ at time $t$\\
+$cs_{i, t}$ variable cost of storing  $i$ at time $t$\\
+\\
+Please note that $S_{i, t - 1} + X_{i, t} - S{i, t}$ is equal to the products sold
 
 \begin{align*}
     &\text{Maximize} &\;\sum_{i\in I} \sum_{t \in T} r_{i, t} * (S_{i, t - 1} + X_{i, t} - S{i, t}) -  cv_{i, t} X_{i, t} -  cf_{i, t} Y_{i, t} + cs_{i, t} S_{i, t}\\
