@@ -1,0 +1,133 @@
+Objective value: 49.12266666666667
+
+Flow in AB at time 1: 2.25
+Flow in AB at time 3: 3.0
+Flow in AB at time 4: 3.0
+Flow in AB at time 5: 3.0
+Flow in AB at time 6: 3.0
+Flow in AB at time 7: 2.7959999999999994
+Flow in AC at time 2: 2.6326666666666667
+Flow in AC at time 3: 2.4653333333333336
+Flow in AC at time 4: 4.698
+Flow in AC at time 5: 6.0
+Flow in AC at time 6: 6.0
+Flow in AC at time 7: 6.0
+Flow in AF at time 1: 0.75
+Flow in AF at time 2: 1.0
+Flow in AF at time 5: 0.5306666666666668
+Flow in AF at time 6: 1.0
+Flow in AF at time 8: 1.0
+Flow in BE at time 2: 2.25
+Flow in BE at time 4: 3.0
+Flow in BE at time 5: 3.0
+Flow in BE at time 6: 3.0
+Flow in BE at time 7: 3.0
+Flow in BE at time 8: 2.7959999999999994
+Flow in CE at time 5: 2.0
+Flow in CE at time 6: 2.0
+Flow in CE at time 7: 2.0
+Flow in CE at time 8: 2.0
+Flow in CF at time 3: 2.6326666666666667
+Flow in CF at time 4: 2.4653333333333336
+Flow in CF at time 5: 2.6980000000000004
+Flow in CF at time 6: 4.0
+Flow in CF at time 7: 4.0
+Flow in CF at time 8: 4.0
+Flow in EG at time 3: 2.25
+Flow in EG at time 5: 3.0
+Flow in EG at time 6: 5.0
+Flow in EG at time 7: 5.0
+Flow in EG at time 8: 5.0
+Flow in EG at time 9: 4.795999999999999
+Flow in FG at time 2: 0.75
+Flow in FG at time 3: 1.0
+Flow in FG at time 4: 2.6326666666666667
+Flow in FG at time 5: 2.4653333333333336
+Flow in FG at time 6: 3.2286666666666672
+Flow in FG at time 7: 5.0
+Flow in FG at time 8: 4.0
+Flow in FG at time 9: 5.0
+
+Drainage at node A at time 0: 0.0
+Drainage at node A at time 1: 0.0
+Drainage at node A at time 2: 0.0
+Drainage at node A at time 3: 0.0
+Drainage at node A at time 4: 0.0
+Drainage at node A at time 5: 0.0
+Drainage at node A at time 6: 0.16333333333333222
+Drainage at node A at time 7: 0.0
+Drainage at node A at time 8: 3.628666666666666
+Drainage at node A at time 9: 0.0
+Drainage at node B at time 0: 0.0
+Drainage at node B at time 1: 0.0
+Drainage at node B at time 2: 0.0
+Drainage at node B at time 3: 0.0
+Drainage at node B at time 4: 0.0
+Drainage at node B at time 5: 0.0
+Drainage at node B at time 6: 0.0
+Drainage at node B at time 7: 0.0
+Drainage at node B at time 8: 0.0
+Drainage at node B at time 9: 0.0
+Drainage at node C at time 0: 0.0
+Drainage at node C at time 1: 0.0
+Drainage at node C at time 2: 0.0
+Drainage at node C at time 3: 0.0
+Drainage at node C at time 4: 0.0
+Drainage at node C at time 5: 0.0
+Drainage at node C at time 6: 0.0
+Drainage at node C at time 7: 0.0
+Drainage at node C at time 8: 0.0
+Drainage at node C at time 9: 0.0
+Drainage at node D at time 0: 0.0
+Drainage at node D at time 1: 0.0
+Drainage at node D at time 2: 0.0
+Drainage at node D at time 3: 0.0
+Drainage at node D at time 4: 0.0
+Drainage at node D at time 5: 0.0
+Drainage at node D at time 6: 0.0
+Drainage at node D at time 7: 0.0
+Drainage at node D at time 8: 0.0
+Drainage at node D at time 9: 0.0
+Drainage at node E at time 0: 0.0
+Drainage at node E at time 1: 0.0
+Drainage at node E at time 2: 0.0
+Drainage at node E at time 3: 0.0
+Drainage at node E at time 4: 0.0
+Drainage at node E at time 5: 0.0
+Drainage at node E at time 6: 0.0
+Drainage at node E at time 7: 0.0
+Drainage at node E at time 8: 0.0
+Drainage at node E at time 9: 0.0
+Drainage at node F at time 0: 0.0
+Drainage at node F at time 1: 0.0
+Drainage at node F at time 2: 0.0
+Drainage at node F at time 3: 0.0
+Drainage at node F at time 4: 0.0
+Drainage at node F at time 5: 0.0
+Drainage at node F at time 6: 0.0
+Drainage at node F at time 7: 0.0
+Drainage at node F at time 8: 0.0
+Drainage at node F at time 9: 0.0
+Drainage at node G at time 0: 0.0
+Drainage at node G at time 1: 0.0
+Drainage at node G at time 2: 0.0
+Drainage at node G at time 3: 0.75
+Drainage at node G at time 4: 3.25
+Drainage at node G at time 5: 2.6326666666666667
+Drainage at node G at time 6: 5.465333333333334
+Drainage at node G at time 7: 8.228666666666667
+Drainage at node G at time 8: 10.0
+Drainage at node G at time 9: 9.0
+
+Activation staus of edge AB: 1.0
+Activation staus of edge AC: 1.0
+Activation staus of edge AF: 1.0
+Activation staus of edge BC: -0.0
+Activation staus of edge BD: 0.0
+Activation staus of edge BE: 1.0
+Activation staus of edge CE: 1.0
+Activation staus of edge CF: 1.0
+Activation staus of edge DE: 0.0
+Activation staus of edge EG: 1.0
+Activation staus of edge FB: 0.0
+Activation staus of edge FG: 1.0

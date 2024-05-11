@@ -3,17 +3,27 @@
 \usepackage{amsmath,amssymb}
 
 \title{MIP 4 Water Flow }
-\author{Nathan Ferchtandiker }
-\date{April 2024}
 
 \begin{document}
 
 \maketitle
-
 \section{Introduction}
+$E$: the set of edges\\
+$T$: the set of time periods\\
+\\
+$X_{e, t}$: the amount of water flow from at edge $e$ at time $t$\\
+$Y_{A, t}$: the amount of released water at node $A$ at time $t$\\
+$Z_{AB}$: 1 if pipe from $A$ to $B$ is used, 0 otherwise\\
+\\
+$f(t) = max(-t^3+4t^2-t+4, 0)$, for t $\geq$ 0, 0 otherwise: the amount of water entering the system at node $A$ at time $t$\\
+$c_{e}$: the capacity of edge $e$\\
+$k$: the maximum number of active pipes allowed\\
+\\
+Please note that 
+1. $X_{e, 0}$ refers to the initial state of edge $e$ which is always equal to 0 for all edges.
+
 
 \begin{align*}
-    f(t) = -t^3+4t^2-t+4 for 0 <= t <= 4, 0 otherwise\\
     \text{Maximize} \sum_{t\in T} 
     X_{EG, t} + X_{FG, t}\\
     \text{Subject to:}\\
