@@ -1,14 +1,5 @@
-You are tasked with scheduling the power output of 6 electric power thermal units over the timespan of 15 periods. There is a constant startup cost of for each power unit that is applied if the power plant is turned on. The startup costs are 10324€, 5678€, 7802€, 12899€, 4596€ and 9076€ for powerplants 1 to 6, respectively. In addition, there is a constant shutdown cost for each power unit that is applied if the power plant is turned off. The shutdown costs are 2673€, 5893€, 982€, 6783€, 2596€ and 3561€ for powerplants 1 to 6, respectively. There is also a fixed and variable cost applied if the powerplant is running. The fixed cost is constant and the variable cost is propotioal to the output of a power plant. There are lower and upper bounds for the output power for each unit. The variable costs are different for each power plant and at each time step
+You are tasked with scheduling the power output of 6 electric power thermal units over the timespan of 15 periods. There is a constant startup cost of for each power unit that is applied if the power plant is turned on. The startup costs are 10324€, 5678€, 7802€, 12899€, 4596€ and 9076€ for powerplants 1 to 6, respectively. In addition, there is a constant shutdown cost for each power unit that is applied if the power plant is turned off. The shutdown costs are 2673€, 5893€, 982€, 6783€, 2596€ and 3561€ for powerplants 1 to 6, respectively. There is also a fixed and variable cost applied if the powerplant is running. The fixed cost is constant and the variable cost is proportional to the output of a power plant. There are lower and upper bounds for the output power for each unit. The variable costs are different for each power plant and at each time step. Next, there are maximum power increments and decremnts for each power plant that limit how much the ouput can change from one time period to the next. There is a total power demand that needs to be fulfilled the power units. Finally, for security reasons the total available power out should always be 10% higher than the used power output. 
 
-
-
-
-
-Next, there are maximum power increments and decremnts for each power plant that limit how much the ouput can change from one time period to the next. 
-
-There is a total power demand that needs to be fullfiled the power units. Finally, for security reasons the total available power out should always be 10% higher than the used power output. 
-
-The power plant data is provided in a csv file called "power_plant_data.csv" which contains the columns "startup_cost", "shutdown_cost", "fixed_cost", "upper_bound", "lower_bound". The varibale cost is provided in a csv file called "variable_cost.csv" where the columns represent a time step. In both files, the rows represent the power unit
 
 
  
