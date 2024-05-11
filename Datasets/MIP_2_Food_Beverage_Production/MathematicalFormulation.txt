@@ -20,8 +20,14 @@ $r_{i, t}$: revenue per unit of product $i$ at time $t$\\
 $cf_{i, t}$: fixed cost of producing product $i$ at time $t$\\
 $cv_{i,t}$: variable cost of producing product $i$ at time $t$\\
 $cs_{i, t}$ variable cost of storing  $i$ at time $t$\\
+$d_{i, t}$: the maximum demand of product $i$ at time $t$. Note that the \\
+$p_{i}$: the production capacity of product $i$\\
+$s_{i}$: the storage capacity of product $i$\\
 \\
-Please note that $S_{i, t - 1} + X_{i, t} - S{i, t}$ is equal to the products sold
+Please note that \\
+1. $S_{i, t - 1} + X_{i, t} - S{i, t}$ is equal to the products sold\\
+2. demand does not need to be fulfilled but serves as an upper bound for the number of units sold.\\
+3. $S_{i, t - 1} + X_{i, t} - S{i, t}$ should be replaced with $X_{i, t} - S{i, t}$ when solving the problem because $S_{i, -1}$ is the initial storage of product $i$ which equals 0
 
 \begin{align*}
     &\text{Maximize} &\;\sum_{i\in I} \sum_{t \in T} r_{i, t} * (S_{i, t - 1} + X_{i, t} - S{i, t}) -  cv_{i, t} X_{i, t} -  cf_{i, t} Y_{i, t} + cs_{i, t} S_{i, t}\\
