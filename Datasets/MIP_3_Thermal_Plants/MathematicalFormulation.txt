@@ -2,15 +2,32 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage{amsmath,amssymb}
 
-\title{MIP 3 Thermanl Units }
-\author{Nathan Ferchtandiker }
-\date{April 2024}
+\title{MIP 3 Thermal Units }
 
 \begin{document}
 
 \maketitle
 
 \section{Introduction}
+$I$: Set of power plants\\
+$T$: Set of time periods\\
+\\
+$X_{i, t}$: output of plant $i$ at time $t$\\
+$Y_{i, t}$: 1 if plant $i$ starts up at time $t$\\
+$V_{i, t}$: 1 if plant $i$ starts up or continues to run at time $t$\\
+$Z_{i, t}$: 1 if plant $i$ shuts down at time $t$\\
+\\
+$crf_{i}$: fixed cost of running plant $i$\\
+$crf_{i}$: variable cost of running plant $i$\\
+$cu_{i}$: cost associated with starting a plant up\\
+$cd_{i}$: cost associated with shutting a plant down\\
+$l_{i}$: lower bound for output of plant $i$\\
+$u_{i}$: upper bound for output of plant $i$\\
+$s_{i}$: maximum power ramp up between periods of plant $i$\\
+$t_{i}$: maximum power ramp down between periods of plant $i$\\
+$x_{i}^{0} = 0 \quad \forall i \in I$: initial power output of plant $i$\\
+$v_{i}^{0} = 0 \quad \forall i \in I$: initial running state of plant $i$\\
+$d_{t}$: power demand at time $t$
 
 \begin{align*}
     &\text{Minimize} &\;\sum_{i\in I} \sum_{t\in T} crf_{i} V_{i, t} + crv_{i} X_{i, t} +  cu_{i} Y_{i, t} + cd_{i} Z_{i, t}\\
@@ -24,8 +41,8 @@
     x_{i}^{0} -  X_{i, 1} &\;\leq t_{i}, &\;\forall i \in I\\
     Y_{i, t} - Z_{i, t} &\;= V_{i, t} - V_{i, t-1}, &\;\forall i \in I, t \in T - \{1\}\\
     Y_{i, 1} - Z_{i, 1} &\;= V_{i, 1} - v_{i}^{0}, &\;\forall i \in I\\
-    \sum_{i \in I} X_{i, t} &\;= D_{t}, &\;\forall t \in T\\
-    \sum_{i \in I} u_{i} V_{i, t} &\;= D_{t} + R_{t}, &\;\forall t \in T\\
+    \sum_{i \in I} X_{i, t} &\;= d_{t}, &\;\forall t \in T\\
+    \sum_{i \in I} u_{i} V_{i, t} &\;= 1.1d_{t},  &\;\forall t \in T\\
     X_{i, t} &\; \in R^{+} &\; \forall i \in I, t \in T\\
     Y_{i, t} &\; \in \{0, 1\} &\; \forall i \in I, t \in T\\
     Z_{i, t} &\; \in \{0, 1\} &\; \forall i \in I, t \in T\\
