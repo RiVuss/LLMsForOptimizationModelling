@@ -27,7 +27,7 @@ $s_{i}$: the storage capacity of product $i$\\
 Please note that \\
 1. $S_{i, t - 1} + X_{i, t} - S{i, t}$ is equal to the products sold\\
 2. demand does not need to be fulfilled but serves as an upper bound for the number of units sold.\\
-3. $S_{i, t - 1} + X_{i, t} - S{i, t}$ should be replaced with $X_{i, t} - S{i, t}$ when solving the problem because $S_{i, -1}$ is the initial storage of product $i$ which equals 0
+3. $S_{i, t - 1} + X_{i, t} - S{i, t}$ should be replaced with $X_{i, t} - S{i, t}$ for t = 0 when solving the problem because $S_{i, -1}$ is the initial storage of product $i$ which equals 0
 
 \begin{align*}
     &\text{Maximize} &\;\sum_{i\in I} \sum_{t \in T} r_{i, t} * (S_{i, t - 1} + X_{i, t} - S{i, t}) -  cv_{i, t} X_{i, t} -  cf_{i, t} Y_{i, t} + cs_{i, t} S_{i, t}\\
