@@ -1,0 +1,8 @@
+Optimal Production Plan:
+Product P1: 0.00 (in-house)
+Product P2: 800.00 (in-house)
+Product P3: 0.00 (in-house)
+Product P1: 0.00 (subcontracted)
+Product P2: 3200.00 (subcontracted)
+
+Total Profit: $3680.00
