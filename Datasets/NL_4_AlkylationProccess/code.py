@@ -1,13 +1,7 @@
 # Alkylation Problem with Couenne
 import pyomo.environ as pyo
 
-# Create a model object
-model = pyo.ConcreteModel()
-
-# Costs
-c1, c2, c3, c4, c5 = 0.63, 5.04, 0.035, 10.0, 3.36
-
-# Lower and upper bounds
+# Data
 x1_l, x1_u = (0, 2000)
 x2_l, x2_u = (0, 16000)
 x3_l, x3_u = (0, 120)
@@ -18,6 +12,9 @@ x7_l, x7_u = (90, 95)
 x8_l, x8_u = (3, 12)
 x9_l, x9_u = (1.2, 4)
 x10_l, x10_u = (145, 162)
+
+# Create a model object
+model = pyo.ConcreteModel()
 
 # Declare the variables with bounds (assuming bounds x_i^l and x_i^u are defined elsewhere)
 model.x1 = pyo.Var(within=pyo.NonNegativeReals, bounds=(x1_l, x1_u))
@@ -32,6 +29,7 @@ model.x9 = pyo.Var(within=pyo.NonNegativeReals, bounds=(x9_l, x9_u))
 model.x10 = pyo.Var(within=pyo.NonNegativeReals, bounds=(x10_l, x10_u))
 
 # Constants in the objective function and bounds
+c1, c2, c3, c4, c5 = 0.63, 5.04, 0.035, 10.0, 3.36
 d4_l, d4_u, d7_l, d7_u, d9_l, d9_u, d10_l, d10_u = 98/100, 102/100, 99/100, 101/100, 95/100, 105/100, 9/10, 11/10
 
 # Objective function
@@ -41,7 +39,7 @@ model.objective = pyo.Objective(expr=c1*model.x4*model.x7 - c2*model.x1 - c3*mod
 model.constraint1 = pyo.Constraint(expr=(model.x1 * (1.12 + 0.13167 * model.x8 - 0.00667 * model.x8**2)) - d4_l * model.x4 >= 0)
 model.constraint2 = pyo.Constraint(expr=-(model.x1 * (1.12 + 0.13167 * model.x8 - 0.00667 * model.x8**2)) + d4_u * model.x4 >= 0)
 model.constraint3 = pyo.Constraint(expr=(86.35 + 1.098 * model.x8 - 0.038 * model.x8**2 + 0.325 * (model.x6 - 89)) - d7_l * model.x7 >= 0)
-model.constraint4 = pyo.Constraint(expr=-(86.35 + 1.098 * model.x8 + 0.038 * model.x8**2 - 0.325 * (model.x6 - 89)) + d7_u * model.x7 >= 0)
+model.constraint4 = pyo.Constraint(expr=-(86.35 + 1.098 * model.x8 - 0.038 * model.x8**2 + 0.325 * (model.x6 - 89)) + d7_u * model.x7 >= 0)
 model.constraint5 = pyo.Constraint(expr=(35.82 - 0.222 * model.x10) - d9_l * model.x9 >= 0)
 model.constraint6 = pyo.Constraint(expr=-(35.82 - 0.222 * model.x10) + d9_u * model.x9 >= 0)
 model.constraint7 = pyo.Constraint(expr=(-133 + 3 * model.x7) - d10_l * model.x10 >= 0)

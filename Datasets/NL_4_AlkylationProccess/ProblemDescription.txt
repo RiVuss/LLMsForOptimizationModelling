@@ -5,10 +5,10 @@ The profit is defined as the revenue generated from the alkylate yield multiplie
 
 Relationships in terms of other variables for alkylate yield, motor octane number, acid dilution factor, and F-4 performance number can be formulated as regression formulas. 
 This regression estimate can deviate in both directions from true value of these variables by 2, 1, 5 and 10 percent, respectively.
-Alkylate yield is a function of olefin feed and external isobutane-to-olefine yield. 
-The motor octane number is derived from the external isobutane-to-olefin ratio and the acid strength. 
-The acid dilution factor is calculated based on the F-4 performance number. 
-Lastly, the F-4 performance number depends on the motor octane number.
+Alkylate yield is a function of olefin feed and external isobutane-to-olefine yield. Alkalyte yield equals the amount of olefin feed multiplied by the sum of 1.12, 0.13167 times the external isobutane-to-olefin ratio and -0.00667 times the external isobutane-to-olefin ratio squared.
+The motor octane number is derived from the external isobutane-to-olefin ratio and the acid strength. The motor octane number is calculated as the sum of 86.35, 1.098 time external isobutane-to-olefin ratio, -0.038 times the external isobutane-to-olefin ratio squared and 0.325 times acid strength reduced by 89.
+The acid dilution factor is calculated based on the F-4 performance number. The acid dillution factor is expressed as 35.82 minus 0.222 times F-4 performance number.
+Lastly, the F-4 performance number depends on the motor octane number. F-4 performance number is calculated as -133 plus three times the motor octane number.
 
 There are some additional constraints imposed by the nature of the chemical process.
 Each variable has a lower and an upper bound.
