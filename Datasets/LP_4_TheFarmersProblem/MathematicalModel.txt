@@ -1,3 +1,6 @@
+\documentclass{article}
+\usepackage{amsmath}
+
 \begin{document}
 
 \begin{itemize}
@@ -14,7 +17,7 @@
 \end{itemize}
 
 \[
-\max 150x_1 + 230x_2 + 260x_3 - 238y_1 - 170w_1 + 210y_2 - 150w_2 - 36w_3 - 10w_4
+\min 150x_1 + 230x_2 + 260x_3 + 238y_1 - 170w_1 + 210y_2 - 150w_2 - 36w_3 - 10w_4
 \]
 
 Subject to:
