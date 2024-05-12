@@ -1,13 +1,13 @@
 Consider a farmer who specializes in raising wheat, corn, and sugar beets on her 500 acres of land. During the winter, she wants to decide how much land to devote to each crop.
 
 The farmer knows that at least 200 tons (T) of wheat and 240 T of corn are needed for cattle feed. These amounts can be raised on the farm or bought from a wholesaler.
-
 Any production in excess of the feeding requirement would be sold.
+
 Over the last decade, mean selling prices have been $170 and $150 per ton of wheat and corn, respectively.
 The purchase prices are 40% more than this due to the wholesaler’s margin and transportation costs.
 
 Another profitable crop is sugar beet, which she expects to sell at $36/T. However, the European Commission imposes a quota on sugar beet production. Any amount in excess of the quota can be sold only at $10/T. The farmer’s quota for next year is 6000 T.
 
-Based on past experience, the farmer knows that the mean yield on her land is roughly 2.5 T, 3 T, and 20 T per acre for wheat, corn, and sugar beets, respectively.
+Based on past experience, the farmer knows that the mean yield on her land is roughly 2.5 T, 3 T, and 20 T per acre for wheat, corn, and sugar beets, respectively. It costs $150 to plant an acre of wheat, $230 to pant an acre of corn and $260 to plant an acre of sugar beets. 
 
-The farmer can decide how much of her land she will use to grow each of the three products: wheat, corn and sugar beets. The goal of the farmer is to minimize her total costs (sales are considered as negative costs).
+The farmer can decide how much of her land she will use to grow each of the three products: wheat, corn and sugar beets. The goal of the farmer is to minimize her total costs (where sales are considered as negative costs).
