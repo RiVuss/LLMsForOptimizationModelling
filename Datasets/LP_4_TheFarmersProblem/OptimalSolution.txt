@@ -1,0 +1,12 @@
+Optimal solution:
+Objective value: $-118600.00
+Acres of Wheat: 120.00
+Tons of Wheat purchased: 0.00
+Tons of Wheat sold: 100.00
+Acres of Corn: 80.00
+Tons of Corn purchased: 0.00
+Tons of Corn sold: 0.00
+Acres of Sugar beet: 300.00
+Tons of Sugar beet purchased: 0.00
+Tons of Sugar beet sold: 6000.00
+Tons of sugar beet sold exceeding quota: 0.00
