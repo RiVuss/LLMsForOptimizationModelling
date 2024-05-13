@@ -13,5 +13,5 @@ Lastly, the F-4 performance number depends on the motor octane number. F-4 perfo
 There are some additional constraints imposed by the nature of the chemical process.
 Each variable has a lower and an upper bound.
 The external isobutane-to-olefin ratio needs to equal the ratio of isobutane recycle plus isobutane makeup to olefin feed. 
-The acid strength needs to equal the ratio of 93000 times acid addition rate to acid addition rate multiplied by acid dilution factor in addition to 1000 times acid factor. 
+The acid strength needs to equal the ratio of 93000 times acid addition rate to acid addition rate multiplied by acid dilution factor in addition to 1000 times acid addition factor. 
 Lastly, 1.22 alkylate yield needs to be equal to the combined olefin feed and isobutane makeup.
