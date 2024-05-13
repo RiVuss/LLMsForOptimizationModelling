@@ -29,7 +29,7 @@ Please note that
     \text{Subject to:}\\
     \begin{alignedat}[t]{5}
     X_{AB, t} + X_{AC, t} + Y_{A, t} &\;= f(t - 1), &\;\forall t \in T\\
-    X_{BC, t} + X_{BD, t} + Y_{B, t} &\;= X_{AB, t - 1}, &\;\forall t \in T\\
+    X_{BC, t} + X_{BD, t} X_{BE, t} + Y_{B, t} &\;= X_{AB, t - 1} + X_{FB, t - 1}, &\;\forall t \in T\\
     X_{CE, t} + X_{CF, t} + Y_{C, t} &\;= X_{AC, t-1} + X_{BC, t-1}, &\;\forall t \in T\\
     X_{DE, t} + Y_{D, t} &\;= X_{BD, t-1}, &\;\forall t \in T\\
     X_{EG, t} + Y_{E, t} &\;= X_{DE, t-1} + X_{CE. t-1}, &\;\forall t \in T\\
