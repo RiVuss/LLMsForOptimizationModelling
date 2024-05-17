@@ -4,6 +4,7 @@ You have three goals overall: sales goals, employee hours goals and overtime goa
 Sales Goals: 
 You have a target of selling 5500 units. 
 But sometimes, you might sell fewer (negative deviation) or more (positive deviation) than this target. 
+On average, your full-time employees will sell 5 records per hour and your part-time employees will sell 2 records per hour.
 
 Employee Hours: 
 You have both full-time and part-time employees. 
