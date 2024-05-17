@@ -1,9 +1,10 @@
 Imagine you own a small shop, and you're trying to manage your employees' working hours and sales targets efficiently.
-You have three goals overall: sales goals, employee hours goals and overtime goals.
+You have three kinds of goals overall: sales goals, employee hours goals and overtime goals.
 
 Sales Goals: 
 You have a target of selling 5500 units. 
 But sometimes, you might sell fewer (negative deviation) or more (positive deviation) than this target. 
+On average, your full-time employees will sell 5 records per hour and your part-time employees will sell 2 records per hour.
 
 Employee Hours: 
 You have both full-time and part-time employees. 
@@ -17,7 +18,11 @@ You are not concerned about limiting the overtime of part-time employees.
 Again, you might deviate from this goal.
 
 Each of these deviations has a different priority for you. 
-P1 to P4 are priority factors for each deviation. 
+P1 to P4 are priority factors for each deviation.
+Your most important goal is to achieve your sales goal.
+Second to that is the goal to not exceed 100 overtime hours for full-time employees.
+Then, you next priority is to fully utilize your full-time and part time employees.
+Your last goal with the lowest priority, you want to keep general overtime hours for both kinds of employees as low as possible.
 In addition to the general priorities of you goals, you are twice as concerned about fully utilizing the full-time employee hours.
 Finally, overtime hours of part-time employees have a relative cost of three times that of full-time employees.
 
