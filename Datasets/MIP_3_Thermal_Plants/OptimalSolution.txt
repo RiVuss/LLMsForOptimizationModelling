@@ -1,107 +1,107 @@
-Total costs are: 762341.0540000001
+Total costs are: 367945.9999999996
 
 Time Period 1:
-  Plant1: Output=468.873, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant2: Output=209.6, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant3: Output=0.0, Running=-0.0, Startup=0.0, Shutdown=0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=0.0, Shutdown=0.0
+  Plant2: Output=120.0, Running=1.0, Startup=1.0, Shutdown=0.0
+  Plant3: Output=105.0, Running=1.0, Startup=1.0, Shutdown=0.0
   Plant4: Output=0.0, Running=-0.0, Startup=0.0, Shutdown=0.0
-  Plant5: Output=321.52699999999993, Running=1.0, Startup=0.0, Shutdown=0.0
+  Plant5: Output=55.0, Running=1.0, Startup=1.0, Shutdown=0.0
   Plant6: Output=0.0, Running=-0.0, Startup=0.0, Shutdown=0.0
 Time Period 2:
-  Plant1: Output=500.0, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant2: Output=329.6000000000001, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=0.0, Running=-0.0, Startup=0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=240.00000000000134, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=86.99999999999866, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=370.3999999999999, Running=1.0, Startup=0.0, Shutdown=0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=1.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 3:
-  Plant1: Output=500.00000000000034, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant2: Output=449.6000000000001, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=360.0000000000051, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=39.999999999994884, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=350.3999999999995, Running=1.0, Startup=0.0, Shutdown=0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 4:
-  Plant1: Output=410.00000000000034, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant2: Output=454.60000000000014, Running=1.0, Startup=-0.0, Shutdown=0.0
-  Plant3: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=358.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=30.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=235.39999999999952, Running=1.0, Startup=0.0, Shutdown=0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 5:
-  Plant1: Output=500.0, Running=1.0, Startup=0.0, Shutdown=0.0
-  Plant2: Output=574.6000000000001, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=110.0, Running=1.0, Startup=1.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=315.39999999999986, Running=1.0, Startup=-0.0, Shutdown=0.0
-  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=0.0
-Time Period 6:
-  Plant1: Output=410.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=569.6000000000001, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=220.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=471.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=30.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=200.39999999999986, Running=1.0, Startup=-0.0, Shutdown=0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 6:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=510.0000000000162, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=89.9999999999838, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 7:
-  Plant1: Output=500.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=330.0, Running=1.0, Startup=0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=600.0000000000155, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=199.99999999998448, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=170.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 8:
-  Plant1: Output=410.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=490.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=345.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=55.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-Time Period 9:
-  Plant1: Output=500.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
   Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=455.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=145.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=272.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=55.0, Running=1.0, Startup=1.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 9:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=526.0000000000277, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=178.99999999997232, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=1.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 10:
-  Plant1: Output=500.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=550.0, Running=1.0, Startup=0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=150.0, Running=1.0, Startup=0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=0.0, Shutdown=-0.0
-Time Period 11:
-  Plant1: Output=490.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=550.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=260.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-Time Period 12:
-  Plant1: Output=400.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=525.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=450.0, Running=1.0, Startup=-0.0, Shutdown=0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=416.00000000001336, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=85.99999999998664, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=225.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 11:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=530.0000000000123, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=195.99999999998778, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=55.0, Running=1.0, Startup=1.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 12:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=600.0000000000116, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=305.9999999999884, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=1.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
 Time Period 13:
-  Plant1: Output=500.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=550.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=350.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-Time Period 14:
-  Plant1: Output=415.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=550.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant4: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=235.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant6: Output=0.0, Running=0.0, Startup=-0.0, Shutdown=-0.0
-Time Period 15:
-  Plant1: Output=430.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant2: Output=600.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
-  Plant3: Output=550.0, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=600.0000000000103, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=329.99999999998965, Running=1.0, Startup=-0.0, Shutdown=-0.0
   Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
-  Plant5: Output=120.0, Running=1.0, Startup=-0.0, Shutdown=0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 14:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=600.0000000000114, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=276.9999999999886, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+Time Period 15:
+  Plant1: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant2: Output=600.0000000000109, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant3: Output=365.99999999998903, Running=1.0, Startup=-0.0, Shutdown=-0.0
+  Plant4: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
+  Plant5: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
   Plant6: Output=0.0, Running=-0.0, Startup=-0.0, Shutdown=-0.0
