@@ -3,7 +3,7 @@
 General information on the experiment 
 
 ## Pipelines
-Graphic with pipelines
+![A flowchart with experiment pipelines and the evaluation of results](/PipelineFlowcharts/Overview.drawio.png|width=80)
 ## Experiment outcomes
 Here put graphs and all
 ## Dataset information
