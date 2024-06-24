@@ -7,6 +7,22 @@ General information on the experiment
 
 ## Experiment outcomes
 Here put graphs and all
+
+<a href="url"><img src="/Graphs_Tables/PipelinesRunsResultsChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/Pipeline1RunsResultsChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/Pipeline2RunsResultsChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/ModelSolutionOptimalityResultChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/CodeSolutionOptimalityChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/SolutionConsinstencyChart.png" align="center"></a>
+
+<a href="url"><img src="/Graphs_Tables/MetricComparisonTable.png" align="center"></a>
+
+
 ## Dataset information
 Perhaps a table with the characteristics of each problem 
 ## Sources of Optimization Problems:
