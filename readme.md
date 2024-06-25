@@ -10,10 +10,6 @@ Here put graphs and all
 
 <a href="url"><img src="/Graphs_Tables/PipelinesRunsResultsChart.png" align="center"></a>
 
-<a href="url"><img src="/Graphs_Tables/Pipeline1RunsResultsChart.png" align="center"></a>
-
-<a href="url"><img src="/Graphs_Tables/Pipeline2RunsResultsChart.png" align="center"></a>
-
 <a href="url"><img src="/Graphs_Tables/ModelSolutionOptimalityResultChart.png" align="center"></a>
 
 <a href="url"><img src="/Graphs_Tables/CodeSolutionOptimalityChart.png" align="center"></a>
@@ -23,8 +19,8 @@ Here put graphs and all
 <a href="url"><img src="/Graphs_Tables/MetricComparisonTable.png" align="center"></a>
 
 
-## Dataset information
-Perhaps a table with the characteristics of each problem 
+## Characteristics of each problem in the dataset
+<a href="url"><img src="/Graphs_Tables/ProblemCharacteristics.png" align="center"></a>
 ## Sources of Optimization Problems:
 1.	IP_1: Wasserkrug, S., Boussioux, L., Hertog, D. D., Mirzazadeh, F., Birbil, I., Kurtz, J., & Maragno, D. (2024). From large language models and optimization to decision optimization CoPilot: A research manifesto. arXiv preprint arXiv:2402.16269.
 2.	IP_2: Kurtz, J., personal communication, April 21, 2023 (data); Cornuejols, G., & Tütüncü, R. (2006). Optimization methods in finance (Vol. 5). Cambridge University Press. https://doi.org/10.1017/9781107297340 (problem logic inspiration)
