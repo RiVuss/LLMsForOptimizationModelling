@@ -8,9 +8,20 @@ General information on the experiment
 ## Experiment outcomes
 Here put graphs and all
 
-<a href="url"><img src="/Graphs_Tables/PipelinesRunsResultsChart.png" align="center"></a>
+<figure style="text-align: center;">
+    <a href="url">
+        <img src="/Graphs_Tables/PipelinesRunsResultsChart.png" alt="Pipeline Runs Results">
+    </a>
+    <figcaption>Figure 1: Pipeline runs results. Breakdown of Model and Code Solution Optimality over each problem and run. </figcaption>
+</figure>
+Figure 1 shows a breakdown of Model and Code Solution Optimality. Across both pipelines:
+... there were four problems that were never solved correctly by any of the LLMs: IP4, MIP4, NLP3, and NLP4
+... only four problems were solved correctly at least once by all LLMs: IP3, LP1, and NLP1
+... no problem was correctly solved in all three runs by all LLMs
+
 
 <a href="url"><img src="/Graphs_Tables/ModelSolutionOptimalityResultChart.png" align="center"></a>
+
 
 <a href="url"><img src="/Graphs_Tables/CodeSolutionOptimalityChart.png" align="center"></a>
 
