@@ -8,19 +8,19 @@ General information on the experiment
 ## Experiment outcomes
 Here put graphs and all
 
-<a href="url"><img src="/Graphs_Tables/PipelinesRunsResultsChart.png" align="center" width=600></a> 
+<a href="url"><img src="/Graphs_Tables/PipelinesRunsResultsChart.png" align="center"></a> 
 Figure 1 shows a breakdown of Model and Code Solution Optimality across all individual runs. Across both pipelines only four problems were never solved correctly by any of the LLMs: IP4, MIP4, NLP3, and NLP4; only four problems were solved correctly at least once by all LLMs: IP3, LP1, and NLP1; no problem was correctly solved by all LLMs in all three runs. <br>
 
-<a href="url"><img src="/Graphs_Tables/ModelSolutionOptimalityResultChart.png" align="center" width=600></a>
+<a href="url"><img src="/Graphs_Tables/ModelSolutionOptimalityResultChart.png" align="center"></a>
 Figure 2 shows the Model Solution Optimality of the four LLMs for both pipelines. For all models, Model Solution Optimality was higher in pipeline 2 than in pipeline 1. Claude 3 Opus performed best in pipeline 1, followed by Gemini 1.5 Pro, GPT-4 and finally Mixtral 8x22B. In pipelines 2, Claude 3 Opus performed best, followed by Gemini 1.5 Pro and then both GPT-4 and Mixtral 8x22B. <br>
 
-<a href="url"><img src="/Graphs_Tables/CodeSolutionOptimalityChart.png" align="center" width=600></a>
+<a href="url"><img src="/Graphs_Tables/CodeSolutionOptimalityChart.png" align="center"></a>
 Figure 3 shows the Code Solutio Optimality of the four LLMs for both pipelines. For Claude 3 Opus, Mixtral 8x22B and GPT-4, Code Solution Optimality was higher in pipeline 2. For Gemini 1.5 Pro, Code Solution Optimality was the same in both pipelines. Claude 3 Opus and Gemini 1.5 Pro performed best in pipeline 1, followed by Mixtral 8x22B and GPT-4. In pipeline 2, Claude 3 Opus performed best, followed by Gemini 1.5 Pro, Mixtral 8x22B and GPT-4. <br>
 
-<a href="url"><img src="/Graphs_Tables/SolutionConsinstencyChart.png" align="center" width=600></a>
+<a href="url"><img src="/Graphs_Tables/SolutionConsinstencyChart.png" align="center"></a>
 Figure 4 shows the Solution Consistency of the four LLMs for both pipelines. For Claude 3 Opus and Mixtral 8x22B, Solution Consistency was higher in pipeline 1, for Gemini 1.5 Pro and GPT-4 Solution Consistency was higher in pipeline 2. Gemini 1.5 Pro generated the most consistent solutions per problem in pipeline 1, followed by Claude 3 Opus, Mixtral 8x22B and GPT-4. In pipeline 2, Gemini 1.5 Pro generated the most consistent solutions per problem, followed by Claude 3 Opus, GPT-4 and Mixtral 8x22B. <br>
 
-<a href="url"><img src="Graphs_Tables/MetricComparisonTable.png" align="center" width=600></a>
+<a href="url"><img src="Graphs_Tables/MetricComparisonTable.png" align="center"></a>
 Figure 5 shows a comparison of all evaluation metrics used throughout the research, except for solution consistency. Across the two pipelines, Claude 3 Opus achieved the highest score for six of the nine evaluation metrics: Model Solution Optimality (p2), Mathematical Model Correctness (p2), Parameter Correctness (p1), Objective Fnction Correctness (p1), Equivalent Code Representation of Mathematical Model (p1) and Code Solution Optimality (p2). Gemini 1.5 achieved the highest score in the other three metrics - Variable Correctness (p2), Constraint Correctness (p2) and Executability of Model-Related Code (p2) - and tied Claude 3 Opus for the highest score in Mathematical Model Correctness (p2) and Equivalent Code Representation of Mathematical Model (p2). 
 
 
