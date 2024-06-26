@@ -49,3 +49,6 @@ Figure 5 shows a comparison of all evaluation metrics used throughout the resear
 
 ## References:
 Guess what comes here
+
+## Authors 
+Annika Siefke, Hubert Perliński, Melis Doga Cevik, Nathan Ferchtandiker
