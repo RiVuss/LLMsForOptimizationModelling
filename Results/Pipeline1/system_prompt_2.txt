@@ -1,0 +1,1 @@
+Please write a python pyomo code for this optimization problem. Use sample data where needed. Indicate where you use sample data.

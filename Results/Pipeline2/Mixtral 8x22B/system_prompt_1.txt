@@ -1,0 +1,8 @@
+Please formulate a mathematical optimization model for this problem. 
+It is important that you do this by following these steps:
+
+1. Define parameters and variables
+2. Define the objective function
+3. Define the constraints
+
+Please note that each answer is always dedicated to one step. Therefore, do not provide extra information than what is asked. The answers will be manually combined by the user to create the full model.

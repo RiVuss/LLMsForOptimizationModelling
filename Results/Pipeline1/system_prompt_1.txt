@@ -1,0 +1,1 @@
+Please formulate a mathematical optimization model for this problem. Include parameters, decision variables, the objective function and the constraints in your answer.
